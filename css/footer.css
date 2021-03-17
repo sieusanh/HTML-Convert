@@ -1,0 +1,58 @@
+
+/* ****************** */
+
+/* SECTION APP-FOOTER */
+.app-footer {
+    height: 150px;
+    padding: 40px 0;
+    background-image: url('../images/footer-bg.jpg');
+}
+
+/* LEFT */
+.app-footer__left {
+    
+}
+
+.app-footer__left > img {
+    width: 90px;
+    cursor: pointer;
+}
+
+.app-footer__left > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+}
+
+.app-footer__left > ul > li {
+    margin-right: 30px;
+}
+
+.app-footer__left > ul > li > a {
+    color: #808080;
+}
+
+
+/* RIGHT */
+.app-footer__right {}
+
+.app-footer__right > ul {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.app-footer__right > ul > li {
+    margin-left: 30px;
+}
+
+.app-footer__right > ul > li > a {
+    color: #2d2d2d;
+}
+
+.app-footer__right > ul > li > a:hover {
+    color: var(--mainColor);
+}
+
+.app-footer__right > p {
+    color: #808080;
+}

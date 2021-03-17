@@ -1,0 +1,78 @@
+/*******************/
+/* SECTION TOP-BAR */
+.top-bar {
+    background-color: var(--mainColor);
+    padding: 1rem 0;
+}
+
+
+/* SOCIAL LIST */
+.top-bar__social-list {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.top-bar__social-list > li {
+    margin-right: 2.5rem;
+}
+
+.top-bar__social-list > li > a {
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/* LINKS */
+.top-bar__links {}
+
+.top-bar__links > a {
+    color: #FFF;
+}
+
+.top-bar__links > span {
+    color: #FFF;
+}
+
+/* SECTION TOP-NAV */
+.top-nav {  
+    padding: 25px;
+}
+
+/* LOGO */
+.top-nav__logo {
+    width: 130px;
+    cursor: pointer;
+}
+
+
+/* MENU */
+.top-nav__menu {
+    display: flex;
+}
+
+.top-nav__menu > li {
+    margin-right: 2.5rem;
+}
+
+.top-nav__menu > li > a {
+    color: #2d2d2d;
+}
+
+.top-nav__menu > li > a:hover {
+    color: var(--mainColor);
+}
+
+/* SEARCH-ICON*/
+.top-nav__search-icon {
+    width: 30px;
+    height: 30px;
+    background-color: var(--mainColor);
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.top-nav__search-icon > i {
+    color: #FFF;
+}

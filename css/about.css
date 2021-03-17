@@ -1,0 +1,88 @@
+/* ****************** */
+
+/* SECTION HERO */
+.hero {
+    background-image: url('../images/page-top-bg.jpg');
+    text-align: center;
+    height: 180px;
+    line-height: 180px;
+}
+
+/* TITLE */
+.hero__title {
+    display: inline;
+    padding: 2px 30px;
+    color: #FFF;
+    background-color: var(--mainColor);
+    font-size: 3.5em;
+}
+
+/* SECTION ABOUT */
+.about {
+    padding: 90px 0;
+}
+
+/* CONTENT */
+.about__content {
+    margin-bottom: auto;
+}
+
+.about__content > h1 {
+    padding-bottom: 50px;
+}
+
+.about__content > p {
+    line-height: 2em;
+    padding-bottom: 40px;
+}
+
+.about__content > button {
+    padding: 10px 30px;
+    border: none;
+    
+    background-color: var(--mainColor);
+    color: #FFF;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+/* THUMBNAIL */
+.about__thumbnail {
+    margin-left: 30px;
+}
+
+.about__thumbnail > img {
+    width: 500px;
+}
+
+/* SECTION FACTS*/
+.facts {
+    height: 270px;
+    padding: 70px;
+    background-color: #EDF2F5;
+    text-align: center;
+
+}
+
+/* LIST*/
+.facts__list {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.facts__list > li {
+    margin: 0 80px;
+}
+
+.facts__list > li > img {
+    width: 50px;
+}
+
+.facts__list > li > h1 {
+    font-size: 2em;
+}
+
+.facts__list > li > p {
+    font-size: 0.9em;
+}
